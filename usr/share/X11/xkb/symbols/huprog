@@ -1,0 +1,20 @@
+// Basic us keyboard layout, but you can write hungarian characters
+default partial
+xkb_symbols "basic" {
+
+    include "us(basic)"
+    name[Group1]= "Hungarian Programmer's";
+
+    key <AD03> { [ e, E, eacute, Eacute ] };
+    key <AD07> { [ u, U, uacute, Uacute ] };
+    key <AD08> { [ i, I, iacute, Iacute ] };
+    key <AD09> { [ o, O, oacute, Oacute ] };
+
+    key <AC01> { [ a, A,       aacute,       Aacute ] };
+    key <AC06> { [ h, H,   udiaeresis,   Udiaeresis ] };
+    key <AC07> { [ j, J, udoubleacute, Udoubleacute ] };
+    key <AC08> { [ k, K,   odiaeresis,   Odiaeresis ] };
+    key <AC09> { [ l, L, odoubleacute, Odoubleacute ] };
+
+    include "level3(ralt_switch)"
+};

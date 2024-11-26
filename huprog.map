@@ -1,0 +1,19 @@
+# huprog.map
+include "us.map"
+keymaps 0-3
+
+# use altgr to write accented characters
+keycode 18 = e E +eacute        +Eacute
+keycode 22 = u U +uacute        +Uacute
+keycode 23 = i I +iacute        +Iacute
+keycode 24 = o O +oacute        +Oacute
+
+keycode 30 = a A +aacute        +Aacute
+keycode 35 = h H +udiaeresis    +Udiaeresis
+keycode 36 = j J +udoubleacute  +Udoubleacute
+keycode 37 = k K +odiaeresis    +Odiaeresis
+keycode 38 = l L +odoubleacute  +Odoubleacute
+
+# swap capslock and escape
+keycode  1 = Caps_Lock
+keycode 58 = Escape
